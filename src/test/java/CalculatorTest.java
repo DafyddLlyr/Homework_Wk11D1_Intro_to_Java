@@ -33,8 +33,3 @@ public class CalculatorTest {
         assertEquals(5.00, calculator.divide(10.00, 2.00), 0.00);
     }
 }
-
-
-//Calculator
-//        Create a Calculator class. This should have functions for Add, Subtract, Multiply and Divide,
-// each taking in two doubles to perform the calculations on.
