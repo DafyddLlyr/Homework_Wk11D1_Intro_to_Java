@@ -16,10 +16,10 @@ public class Printer {
     }
 
     public void print(int pages, int copies){
-        int total = pages * copies;
-        if (total <= this.sheets && total <= this.toner) {
-            this.sheets -= total;
-            this.toner -= total;
+        int paperUsed = pages * copies;
+        if (paperUsed <= this.sheets && paperUsed <= this.toner) {
+            this.sheets -= paperUsed;
+            this.toner -= paperUsed;
         }
     }
 

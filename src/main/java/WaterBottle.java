@@ -6,7 +6,12 @@ public class WaterBottle {
     }
 
     public void sip(){
-        this.volume -= 10;
+        if (this.volume >= 10) {
+            this.volume -= 10;
+        } else {
+            this.volume = 0;
+        }
+
     }
 
     public void empty(){

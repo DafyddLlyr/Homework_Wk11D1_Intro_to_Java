@@ -3,12 +3,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class PrinterTest {
+public class TestPrinter {
 
     Printer printer;
 
     @Before
-    public void before(){
+    public void setup(){
         printer = new Printer(100, 100);
     }
 

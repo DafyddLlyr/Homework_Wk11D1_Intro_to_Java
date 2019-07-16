@@ -3,12 +3,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class CalculatorTest {
+public class TestCalculator {
 
     Calculator calculator;
 
     @Before
-    public void before(){
+    public void setup(){
         calculator = new Calculator();
     }
 
